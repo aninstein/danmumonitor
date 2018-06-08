@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/static/a1.txt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/static/degree_level.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/static/denial_word.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/static/key_abuse.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/static/key_other.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/static/key_react.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/static/key_sex.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/static/key_violence.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/static/neg.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/static/neg_comment.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/static/pos.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/static/pot_comment.txt" charset="GBK" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
