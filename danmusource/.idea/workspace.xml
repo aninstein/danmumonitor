@@ -15,8 +15,8 @@
       <file leaf-file-name="Random.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Random.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="59">
-              <caret line="184" column="24" lean-forward="true" selection-start-line="184" selection-start-column="24" selection-end-line="184" selection-end-column="24" />
+            <state relative-caret-position="267">
+              <caret line="192" column="27" lean-forward="false" selection-start-line="192" selection-start-column="27" selection-end-line="192" selection-end-column="27" />
               <folding>
                 <element signature="e#30#66#0" expanded="true" />
               </folding>
@@ -189,6 +189,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -218,7 +219,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -433,10 +433,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="1" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2725322" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28004292" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -826,8 +826,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Random.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="184" column="24" lean-forward="true" selection-start-line="184" selection-start-column="24" selection-end-line="184" selection-end-column="24" />
+        <state relative-caret-position="267">
+          <caret line="192" column="27" lean-forward="false" selection-start-line="192" selection-start-column="27" selection-end-line="192" selection-end-column="27" />
           <folding>
             <element signature="e#30#66#0" expanded="true" />
           </folding>
