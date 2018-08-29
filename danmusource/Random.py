@@ -175,28 +175,31 @@ def setable(number):
 
 def run(roomnumber):
     #roomnumber = "1164160"
-    if(setable(roomnumber)):
-        #将主播信息插入总表
-        #获取主播名字
+    try:
+        # 将主播信息插入总表
+        # 获取主播名字
         get1 = getname.getNum()
         name = get1.start(roomnumber)
         #
         print name
         print roomnumber
         print table
-        try:
-            sql = "select Aname from artable where Aname='" + str(name) + "'"
-            cursor.execute(sql)
-            result = cursor.fetchall()
-            if not result:
-                cursor.execute("insert into artable values('%s','%s','%s');"%(str(name), str(roomnumber), str(table)))
-                db.commit()
-        except Exception as e:
-            print "Exception======>", e
+        sql = "select Aname from artable where Aname='" + str(name) + "'"
+        cursor.execute(sql)
+        result = cursor.fetchall()
+        if not result:
+            if(setable(roomnumber)):
+                try:
+                    cursor.execute("insert into artable values('%s','%s','%s');"%(str(name), str(roomnumber), str(table)))
+                    db.commit()
+                except Exception as e:
+                    print "Exception======>", e
+                room = ChatRoom(roomnumber)
+                room.on('chatmsg',on_chat_message)
+                room.knock()
+    except Exception as e:
+        print "Exception table exist ======>", e
 
-        room = ChatRoom(roomnumber)
-        room.on('chatmsg',on_chat_message)
-        room.knock()
 '''
 if __name__ == '__main__':
     run()
